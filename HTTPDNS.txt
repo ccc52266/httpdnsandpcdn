@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,ulogs.umeng.com
 DOMAIN-SUFFIX,uop.umeng.com
 DOMAIN-SUFFIX,umengjmacs.m.taobao.com
 DOMAIN-SUFFIX,umengacs.m.taobao.com
-DOMAIN-SUFFIX,*.bjmantis.net
+DOMAIN-REGEX,*.bjmantis.net
 DOMAIN-SUFFIX,iyes.youku.com
 DOMAIN-SUFFIX,ads.cup.com.cn
 DOMAIN-SUFFIX,ad-channel.diwodiwo.xyz
@@ -56,8 +56,7 @@ DOMAIN-SUFFIX,mws.adsage.com
 DOMAIN-SUFFIX,trc.adsage.com
 DOMAIN-SUFFIX,config.mobisage.cn
 DOMAIN-SUFFIX,adsame.com
-DOMAIN-SUFFIX,@adsmogo.com
-DOMAIN-SUFFIX,click*forhz.adsmogo.com
+DOMAIN-REGEX,click*forhz.adsmogo.com
 DOMAIN-SUFFIX,my.adsmogo.com
 DOMAIN-SUFFIX,www.adsmogo.com
 DOMAIN-SUFFIX,w.inmobi.com
@@ -72,14 +71,6 @@ DOMAIN-SUFFIX,guomob.com
 DOMAIN-SUFFIX,ad.madserving.com
 DOMAIN-SUFFIX,ads.static.madserving.com
 DOMAIN-SUFFIX,adv.madserving.com
-
-! # Ads - Tencent
-
-@@DOMAIN-SUFFIX,aeventlog.beacon.qq.com
-@@DOMAIN-SUFFIX,cfg.flurry.com
-@@DOMAIN-SUFFIX,data.flurry.com
-#@@DOMAIN-SUFFIX,otheve.beacon.qq.com
-
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,ag.qq.com
 DOMAIN-SUFFIX,ad.weixin.qq.com
@@ -117,10 +108,6 @@ DOMAIN-SUFFIX,d3g.qq.com
 DOMAIN-SUFFIX,data.qq.com
 DOMAIN-SUFFIX,fw.qq.com
 DOMAIN-SUFFIX,mdt.qq.com
-
-
-! # Ads - Google
-
 DOMAIN-SUFFIX,media.mobpartner.mobi
 DOMAIN-SUFFIX,ads2.mediaarmor.com
 DOMAIN-SUFFIX,cdn.nearbyad.com
@@ -136,17 +123,11 @@ DOMAIN-SUFFIX,googlevads-cn.com
 DOMAIN-SUFFIX,googleads-cn.com
 DOMAIN-SUFFIX,googletagmanager-cn.com
 DOMAIN-SUFFIX,googletagservices-cn.com
-
-! # Ads - Baidu
-
 DOMAIN-SUFFIX,wanba.baidu.com
 DOMAIN-SUFFIX,iwan.baidu.com
 DOMAIN-SUFFIX,wan.baidu.com
 DOMAIN-SUFFIX,youxi.baidu.com
 DOMAIN-SUFFIX,adm.baidu.com
-
-! # Ads - Coolapk
-
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,pangolin.snssdk.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
@@ -154,31 +135,20 @@ DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,ulogs.umeng.com
 DOMAIN-SUFFIX,aaid.umeng.com
-DOMAIN-SUFFIX,tnc*.zijieapi.com
+DOMAIN-REGEX,tnc*.zijieapi.com
 DOMAIN-SUFFIX,mssdk-bu.bytedance.com
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,pangolin.snssdk.com
-
-! # Ads - Leigod
-
-DOMAIN-SUFFIX,p*-ad.adukwai.com
+DOMAIN-REGEX,p*-ad.adukwai.com
 DOMAIN-SUFFIX,adservice.sigmob.cn
 DOMAIN-SUFFIX,n.sigmob.cn
 DOMAIN-SUFFIX,rtbcallback.sigmob.cn
 DOMAIN-SUFFIX,tm.sigmob.cn
 DOMAIN-SUFFIX,track.sigmob.cn
 DOMAIN-SUFFIX,tracktp.sigmob.cn
-
-
-! # Ads - Xiaomi
-
 DOMAIN-SUFFIX,ad.xiaomi.com
 DOMAIN-SUFFIX,o2o.api.xiaomi.com
 DOMAIN-SUFFIX,sdkconfig.ad.xiaomi.com
-
-
-! # Tracking - Xiaomi
-
 DOMAIN-SUFFIX,tracker.xiaomixiaoai.com
 DOMAIN-SUFFIX,exp.sug.browser.miui.com
 DOMAIN-SUFFIX,sentry.d.xiaomi.net
@@ -188,23 +158,12 @@ DOMAIN-SUFFIX,metok.sys.miui.com
 DOMAIN-SUFFIX,auth.be.sec.miui.com
 DOMAIN-SUFFIX,tracker.ai.xiaomi.com
 DOMAIN-SUFFIX,api.miui.security.xiaomi.com
-
-! # Tracking - ms-edge
-
 DOMAIN-SUFFIX,browser.events.data.msn.cn
 DOMAIN-SUFFIX,browser.events.data.msn.com
-
-
-! Block Anti-Fraud Center Tracking (xiaomi)
-
 DOMAIN-SUFFIX,miav-cse.avlyun.com
 DOMAIN-SUFFIX,a0.app.xiaomi.com
 DOMAIN-SUFFIX,miui-fxcse.avlyun.com
 DOMAIN-SUFFIX,api.installer.xiaomi.com$important
-
-
-! Tracking
-
 DOMAIN-SUFFIX,tpstelemetry.tencent.com
 DOMAIN-SUFFIX,track.xiachufang.com
 DOMAIN-SUFFIX,trackbeat.xiachufang.com
@@ -221,11 +180,11 @@ DOMAIN-SUFFIX,px.ucweb.com
 DOMAIN-SUFFIX,track.easeus.com
 DOMAIN-SUFFIX,track.mituo.cn
 DOMAIN-SUFFIX,cc-api-data.adobe.io
-DOMAIN-SUFFIX,log*.aliyuncs.com
+DOMAIN-REGEX,log*.aliyuncs.com
 DOMAIN-SUFFIX,beacon-api.aliyuncs.com
 DOMAIN-SUFFIX,g.doubleclick.net
 DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,beacons*.gvt3.com
+DOMAIN-REGEX,beacons*.gvt3.com
 DOMAIN-SUFFIX,loggw.alipay.com.cn
 DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
 DOMAIN-SUFFIX,sugar.zhihu.com
@@ -234,33 +193,20 @@ DOMAIN-SUFFIX,dorangesource.alicdn.com
 DOMAIN-SUFFIX,cgicol.amap.com
 DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,log.mmstat.com
-DOMAIN-SUFFIX,report.*.qq.com
+DOMAIN-REGEX,report.*.qq.com
 DOMAIN-SUFFIX,up-hl.3g.qq.com
-DOMAIN-SUFFIX,log*-misc-lf.amemv.com
+DOMAIN-REGEX,log*-misc-lf.amemv.com
 DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN-SUFFIX,ib.snssdk.com
 DOMAIN-SUFFIX,afd.baidu.com
-DOMAIN-SUFFIX,*.nrb.footprintdns.com
+DOMAIN-REGEX,*.nrb.footprintdns.com
 DOMAIN-SUFFIX,tracker.didistatic.com
-DOMAIN-SUFFIX,*-inapps.appsflyersdk.com
-DOMAIN-SUFFIX,fp-it*.fengkongcloud.com
-DOMAIN-SUFFIX,*-launches.appsflyersdk.com
-
-! Virus
-! # zygisk.apk - com.android.append
-
+DOMAIN-REGEX,*-inapps.appsflyersdk.com
+DOMAIN-REGEX,fp-it*.fengkongcloud.com
+DOMAIN-REGEX,*-launches.appsflyersdk.com
 DOMAIN-SUFFIX,fdkss.sbs
-
-! # nextjs cve
-
 DOMAIN-REGEX,*.1433.eu.org
-
-! Input
-
 DOMAIN-SUFFIX,ping.pinyin.sogou.com
-
-! Block PCDN
-
 DOMAIN-REGEX,*.mcdn.bilivideo.cn
 DOMAIN-SUFFIX,punch.p2p.qq.com
 DOMAIN-SUFFIX,musicps.p2p.qq.com
@@ -268,10 +214,6 @@ DOMAIN-SUFFIX,musicstun.p2p.qq.com
 DOMAIN-SUFFIX,musicpunch.p2p.qq.com
 DOMAIN-SUFFIX,tp2p.kg.qq.com
 DOMAIN-SUFFIX,twns.p2ptun.qq.com
-
-
-! BAT Built-in DNS
-
 DOMAIN-SUFFIX,dns.qq.com
 DOMAIN-SUFFIX,httpdns.pro
 DOMAIN-SUFFIX,httpdns.kg.qq.com
@@ -279,18 +221,13 @@ DOMAIN-SUFFIX,httpsdns.baidu.com
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,httpdns.alicdn.com
 DOMAIN-SUFFIX,amdc.alipay.com
-DOMAIN-SUFFIX,dns.weixin.qq.com*
+DOMAIN-REGEX,dns.weixin.qq.com*
 DOMAIN-SUFFIX,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN-SUFFIX,apd-pcdnwxnat.teg.tencent-cloud.net
 DOMAIN-SUFFIX,apd-pcdnvodstat.teg.tencent-cloud.net
 DOMAIN-SUFFIX,apd-vodp2plogin.teg.tencent-cloud.net
 DOMAIN-SUFFIX,httpdns.browser.miui.com
-
-
-! Block Built-in DNS
-
-# DOMAIN-SUFFIX,doh.dns.apple.com
 DOMAIN-SUFFIX,dns.jd.com
 DOMAIN-SUFFIX,httpdns.danuoyi.tbcache.com
 DOMAIN-SUFFIX,music.httpdns.c.163.com
@@ -352,7 +289,7 @@ DOMAIN-SUFFIX,dns.supfree.net
 DOMAIN-SUFFIX,anti-sdk-report.m.jd.com
 DOMAIN-REGEX,dns*po.lzn376.com
 DOMAIN-REGEX,dnsa*f.*zzy.com
-DOMAIN-SUFFIX,dns-*.eastus.cloudapp.azure.com
+DOMAIN-REGEX,dns-*.eastus.cloudapp.azure.com
 DOMAIN-REGEX,dnsnio.*.com
 DOMAIN-REGEX,dnszcp.zzg*.com
 DOMAIN-REGEX,dns*.londrimarketing.com.br
